@@ -1,0 +1,2295 @@
+{
+    "manifest_version": "1.0.16",
+    "title": "Aho - Agency & Business Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Search-popup",
+            "screenshot": "screenshots\/search-popup.jpg",
+            "source": "templates\/search-popup.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/?elementor_library=search-popup",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 1",
+            "screenshot": "screenshots\/home-1.jpg",
+            "source": "templates\/home-1.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/template-kit\/home-1\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 2",
+            "screenshot": "screenshots\/home-2.jpg",
+            "source": "templates\/home-2.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/template-kit\/home-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 3",
+            "screenshot": "screenshots\/home-3.jpg",
+            "source": "templates\/home-3.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/template-kit\/home-3\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Archive",
+            "screenshot": "screenshots\/archive.jpg",
+            "source": "templates\/archive.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/?elementor_library=archive",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Post single 1 with sidebar",
+            "screenshot": "screenshots\/post-single-1-with-sidebar.jpg",
+            "source": "templates\/post-single-1-with-sidebar.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/?elementor_library=post-single-1-with-sidebar",
+            "type": "single",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Common Elements",
+            "screenshot": "screenshots\/common-elements.jpg",
+            "source": "templates\/common-elements.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/template-kit\/common-elements\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Blogs",
+            "screenshot": "screenshots\/blogs.jpg",
+            "source": "templates\/blogs.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/template-kit\/blogs\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Service Info",
+            "screenshot": "screenshots\/service-info.jpg",
+            "source": "templates\/service-info.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/template-kit\/service-info\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team Info",
+            "screenshot": "screenshots\/team-info.jpg",
+            "source": "templates\/team-info.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/template-kit\/team-info\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Portfolio",
+            "screenshot": "screenshots\/portfolio.jpg",
+            "source": "templates\/portfolio.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/template-kit\/portfolio\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Portfolio Info",
+            "screenshot": "screenshots\/portfolio-info.jpg",
+            "source": "templates\/portfolio-info.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/template-kit\/portfolio-info\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.0.3",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.0.10",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "1080x1080-11.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1080x1080-11-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/post-single-1-with-sidebar.json",
+                    "name": "Post single 1 with sidebar"
+                },
+                {
+                    "source": "templates\/blogs.json",
+                    "name": "Blogs"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 287250,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/QhF3YGsDrYk"
+        },
+        {
+            "filename": "1080x1080-10.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1080x1080-10-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/post-single-1-with-sidebar.json",
+                    "name": "Post single 1 with sidebar"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 275049,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/uUwEAW5jFLE"
+        },
+        {
+            "filename": "1080x1080-12.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1080x1080-12-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/post-single-1-with-sidebar.json",
+                    "name": "Post single 1 with sidebar"
+                },
+                {
+                    "source": "templates\/blogs.json",
+                    "name": "Blogs"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 295818,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/0IEqaKvX0lc"
+        },
+        {
+            "filename": "1080x1080-07.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1080x1080-07-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/post-single-1-with-sidebar.json",
+                    "name": "Post single 1 with sidebar"
+                },
+                {
+                    "source": "templates\/blogs.json",
+                    "name": "Blogs"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 281456,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/lotion-psd-bottle-cosmetic-mockup"
+        },
+        {
+            "filename": "1080x1080-15.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1080x1080-15-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/blogs.json",
+                    "name": "Blogs"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 279700,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/gravity-psd-paper-hot-cup-mockup"
+        },
+        {
+            "filename": "1080x1080-01.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1080x1080-01-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 281466,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/psd-wood-frame-mockup-vol9"
+        },
+        {
+            "filename": "1080x1080-14.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1080x1080-14-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/post-single-1-with-sidebar.json",
+                    "name": "Post single 1 with sidebar"
+                },
+                {
+                    "source": "templates\/blogs.json",
+                    "name": "Blogs"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 290067,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/spiral-ring-psd-notebook-mockup"
+        },
+        {
+            "filename": "1080x1080-13.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1080x1080-13-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/post-single-1-with-sidebar.json",
+                    "name": "Post single 1 with sidebar"
+                },
+                {
+                    "source": "templates\/blogs.json",
+                    "name": "Blogs"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 214154,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/quad-fold-psd-brochure-mockup"
+        },
+        {
+            "filename": "1920x1080-01.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1920x1080-01-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                }
+            ],
+            "filesize": 302620,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/man-and-interior-of-his-office-8ZTFHT4"
+        },
+        {
+            "filename": "1200x1000-05.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1200x1000-05-600x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 299330,
+            "dimensions": [
+                1200,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/successful-company-with-happy-workers-business-mee-MJWAA49"
+        },
+        {
+            "filename": "icon-32.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/icon-32.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 15261,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-thin-line-business-icons-UVB5QD"
+        },
+        {
+            "filename": "icon-30.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/icon-30.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 20308,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-thin-line-business-icons-UVB5QD"
+        },
+        {
+            "filename": "icon-27.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/icon-27.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 19506,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-thin-line-business-icons-UVB5QD"
+        },
+        {
+            "filename": "icon-19.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/icon-19.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                }
+            ],
+            "filesize": 23724,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-thin-line-business-icons-UVB5QD"
+        },
+        {
+            "filename": "team-01.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/team-01-600x720.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 284931,
+            "dimensions": [
+                1000,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/confident-group-of-diverse-young-entrepreneurs-smi-BR8JD2P"
+        },
+        {
+            "filename": "team-04.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/team-04-600x720.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 180959,
+            "dimensions": [
+                1000,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/confident-group-of-diverse-young-entrepreneurs-smi-BR8JD2P"
+        },
+        {
+            "filename": "team-03.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/team-03-600x720.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 230572,
+            "dimensions": [
+                1000,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/confident-group-of-diverse-young-entrepreneurs-smi-BR8JD2P"
+        },
+        {
+            "filename": "1080x1080-12-1.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1080x1080-12-1-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                }
+            ],
+            "filesize": 295818,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/0IEqaKvX0lc"
+        },
+        {
+            "filename": "1080x1080-10-1.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1080x1080-10-1-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                }
+            ],
+            "filesize": 275049,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/uUwEAW5jFLE"
+        },
+        {
+            "filename": "1080x1080-07-1.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1080x1080-07-1-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                }
+            ],
+            "filesize": 281456,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/lotion-psd-bottle-cosmetic-mockup"
+        },
+        {
+            "filename": "1080x1080-09.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1080x1080-09-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/post-single-1-with-sidebar.json",
+                    "name": "Post single 1 with sidebar"
+                },
+                {
+                    "source": "templates\/blogs.json",
+                    "name": "Blogs"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 260363,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/KStSiM1UvPw"
+        },
+        {
+            "filename": "testimonial-05.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/testimonial-05-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                }
+            ],
+            "filesize": 215853,
+            "dimensions": [
+                1500,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/diverse-group-of-young-businesspeople-smiling-conf-R6WA7BC"
+        },
+        {
+            "filename": "testimonial-04-1.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/testimonial-04-1-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                }
+            ],
+            "filesize": 178380,
+            "dimensions": [
+                1500,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/diverse-group-of-young-businesspeople-smiling-conf-R6WA7BC"
+        },
+        {
+            "filename": "testimonial-02-1.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/testimonial-02-1-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                }
+            ],
+            "filesize": 218265,
+            "dimensions": [
+                1500,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/diverse-group-of-young-businesspeople-smiling-conf-R6WA7BC"
+        },
+        {
+            "filename": "logo-07.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/logo-07.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 9891,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-05-1.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/logo-05-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                }
+            ],
+            "filesize": 9933,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-06-1.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/logo-06-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                }
+            ],
+            "filesize": 8307,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-03-1.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/logo-03-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                }
+            ],
+            "filesize": 8623,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "1920x1080-07.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1920x1080-07-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 298023,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pretty-graphic-designer-elaborating-maquette-FZGX589"
+        },
+        {
+            "filename": "1920x1080-02.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1920x1080-02-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 295364,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/adult-business-people-discussing-creative-project-85UYEXZ"
+        },
+        {
+            "filename": "w-icon-10.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/w-icon-10.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 31741,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-thin-line-business-icons-UVB5QD"
+        },
+        {
+            "filename": "w-icon-14.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/w-icon-14.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 32723,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-thin-line-business-icons-UVB5QD"
+        },
+        {
+            "filename": "w-icon-31.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/w-icon-31.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 26395,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-thin-line-business-icons-UVB5QD"
+        },
+        {
+            "filename": "1000x1200-02.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1000x1200-02-600x720.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 305019,
+            "dimensions": [
+                1000,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/two-young-people-looking-at-photos-in-office-NGWN7MJ"
+        },
+        {
+            "filename": "1200x1000-10.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1200x1000-10-600x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 288237,
+            "dimensions": [
+                1200,
+                1000
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/psd-stand-up-pouch-packaging-mockup-2"
+        },
+        {
+            "filename": "testimonial-04.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/testimonial-04-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 178380,
+            "dimensions": [
+                1500,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/diverse-group-of-young-businesspeople-smiling-conf-R6WA7BC"
+        },
+        {
+            "filename": "testimonial-02.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/testimonial-02-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 218265,
+            "dimensions": [
+                1500,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/diverse-group-of-young-businesspeople-smiling-conf-R6WA7BC"
+        },
+        {
+            "filename": "testimonial-03.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/testimonial-03-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 256276,
+            "dimensions": [
+                1500,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/diverse-group-of-young-businesspeople-smiling-conf-R6WA7BC"
+        },
+        {
+            "filename": "icon-5.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/icon-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 27476,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-thin-line-business-icons-UVB5QD"
+        },
+        {
+            "filename": "icon-6.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/icon-6.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 29580,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-thin-line-business-icons-UVB5QD"
+        },
+        {
+            "filename": "icon-4.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/icon-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 21344,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-thin-line-business-icons-UVB5QD"
+        },
+        {
+            "filename": "1080x1080-02.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1080x1080-02-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 292897,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/psd-hardcover-book-catalog-mockup-3"
+        },
+        {
+            "filename": "1080x1080-08.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1080x1080-08-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 220215,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/psd-stand-up-pouch-packaging-mockup-2"
+        },
+        {
+            "filename": "icon-17.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/icon-17.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 14041,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-thin-line-business-icons-UVB5QD"
+        },
+        {
+            "filename": "icon-11.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/icon-11.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 16943,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-thin-line-business-icons-UVB5QD"
+        },
+        {
+            "filename": "1200x1000-01.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1200x1000-01-600x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                }
+            ],
+            "filesize": 292026,
+            "dimensions": [
+                1200,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pretty-graphic-designer-elaborating-maquette-FZGX589"
+        },
+        {
+            "filename": "1200x1000-02.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1200x1000-02-600x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                }
+            ],
+            "filesize": 293406,
+            "dimensions": [
+                1200,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-man-working-in-modern-workplace-PPN7Z4J"
+        },
+        {
+            "filename": "logo-01.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/logo-01.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 8540,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-06.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/logo-06.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 8307,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-02.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/logo-02.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 8149,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "1920x1080-09.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1920x1080-09-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/post-single-1-with-sidebar.json",
+                    "name": "Post single 1 with sidebar"
+                },
+                {
+                    "source": "templates\/blogs.json",
+                    "name": "Blogs"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 302008,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/smooth-wavy-backgrounds-NFVHYD"
+        },
+        {
+            "filename": "w-icon-7.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/w-icon-7.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 30327,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-thin-line-business-icons-UVB5QD"
+        },
+        {
+            "filename": "icon-15.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/icon-15.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 38197,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-thin-line-business-icons-UVB5QD"
+        },
+        {
+            "filename": "1200x1000-04.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1200x1000-04-600x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 295234,
+            "dimensions": [
+                1200,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/modern-start-up-entrepreneur-CCJ6EFE"
+        },
+        {
+            "filename": "placeholder.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/placeholder-600x400.png",
+            "templates": [
+                {
+                    "source": "templates\/post-single-1-with-sidebar.json",
+                    "name": "Post single 1 with sidebar"
+                }
+            ],
+            "filesize": 6146,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "1200x1000-09.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1200x1000-09-600x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/blogs.json",
+                    "name": "Blogs"
+                }
+            ],
+            "filesize": 290881,
+            "dimensions": [
+                1200,
+                1000
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/psd-ipad-pro-mockup"
+        },
+        {
+            "filename": "1200x1000-11.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1200x1000-11-600x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/blogs.json",
+                    "name": "Blogs"
+                }
+            ],
+            "filesize": 256829,
+            "dimensions": [
+                1200,
+                1000
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/uUwEAW5jFLE"
+        },
+        {
+            "filename": "1200x1000-07.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1200x1000-07-600x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 283776,
+            "dimensions": [
+                1200,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-businesswoman-working-in-office-992FCDB"
+        },
+        {
+            "filename": "1200x1000-06.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1200x1000-06-600x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                }
+            ],
+            "filesize": 260023,
+            "dimensions": [
+                1200,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/guy-student-sit-at-the-table-indoors-writing-notes-KRUQQEU"
+        },
+        {
+            "filename": "1920x1080-10.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1920x1080-10-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                }
+            ],
+            "filesize": 264510,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/7OFnb7NOvjw"
+        },
+        {
+            "filename": "icon-13.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/icon-13.png",
+            "templates": [
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                }
+            ],
+            "filesize": 38882,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-thin-line-business-icons-UVB5QD"
+        },
+        {
+            "filename": "1920x1080-05.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1920x1080-05-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-info.json",
+                    "name": "Service Info"
+                }
+            ],
+            "filesize": 261012,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-designer-laughing-with-colleagues-in-the-bac-AJ6DN5G"
+        },
+        {
+            "filename": "team-02.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/team-02-600x720.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 170946,
+            "dimensions": [
+                1000,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/confident-group-of-diverse-young-entrepreneurs-smi-BR8JD2P"
+        },
+        {
+            "filename": "team-06.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/team-06-600x720.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 300794,
+            "dimensions": [
+                1000,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-group-of-ethnically-diverse-professional-b-E54D7RY"
+        },
+        {
+            "filename": "team-05.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/team-05-600x720.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 260724,
+            "dimensions": [
+                1000,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-group-of-ethnically-diverse-professional-b-E54D7RY"
+        },
+        {
+            "filename": "1920x1080-03.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1920x1080-03-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 294711,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-portrait-of-bearded-man-at-workplace-7MX2MCS"
+        },
+        {
+            "filename": "1000x1200-04.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1000x1200-04-600x720.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-info.json",
+                    "name": "Team Info"
+                }
+            ],
+            "filesize": 294348,
+            "dimensions": [
+                1000,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/face-of-mature-handsome-bald-bearded-businessman-i-H4TTZA9"
+        },
+        {
+            "filename": "1080x1080-05.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1080x1080-05-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 261780,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/yH6kh_DGBHY"
+        },
+        {
+            "filename": "1920x1080-11.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo3\/aho\/wp-content\/uploads\/sites\/3\/2020\/09\/1920x1080-11-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-info.json",
+                    "name": "Portfolio Info"
+                }
+            ],
+            "filesize": 280440,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/quad-fold-psd-brochure-mockup"
+        }
+    ]
+}
